@@ -193,36 +193,18 @@ h3 {
         position: absolute;
         top: 30%;
         left: 50%;
-        transform: translateX(-50%);
         color: var(--second-color);
         font-size: 20px;
         width: 893px;
         border-right: 2px solid var(--second-color);
         overflow: hidden;
         white-space: nowrap;
-        animation: width 5s steps(100) 2s both, blink 0.8s infinite;
-        -webkit-animation: width 5s steps(100) 2s both, blink 0.8s infinite;
+        transform: translateX(-50%);
         -webkit-transform: translateX(-50%);
         -moz-transform: translateX(-50%);
         -ms-transform: translateX(-50%);
         -o-transform: translateX(-50%);
 }
-}
-@keyframes width {
-    from {
-        width: 0;
-    }
-    to {
-        width: 893px;
-    }
-}
-@keyframes blink {
-    from {
-        border-right-color: var(--second-color);
-    }
-    to {
-        border-right: none;
-    }
 }
 @media (max-width: 940px) and (min-width: 541px) {
     .landing .welcome {
