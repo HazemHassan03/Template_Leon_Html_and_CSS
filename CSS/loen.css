@@ -195,10 +195,6 @@ h3 {
         left: 50%;
         color: var(--second-color);
         font-size: 20px;
-        width: 893px;
-        border-right: 2px solid var(--second-color);
-        overflow: hidden;
-        white-space: nowrap;
         transform: translateX(-50%);
         -webkit-transform: translateX(-50%);
         -moz-transform: translateX(-50%);
@@ -214,7 +210,6 @@ h3 {
         transform: translateX(-50%);
         color: var(--second-color);
         font-size: 20px;
-        width: 500px;
         text-align: center;
         line-height: 1.6;
     }
@@ -229,7 +224,6 @@ h3 {
         font-size: 20px;
         text-align: center;
         line-height: 1.6;
-        width: 300px;
     }
 }
 .landing .intro-text {
